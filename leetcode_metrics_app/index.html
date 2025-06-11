@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>leetcode metrics</title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div class="container">
+            <h1>LeetMetrics</h1>
+       
+            <div class="user_container">
+              <p>Enter the username</p>
+            <div class="user_input_container">
+            <input type="text" id="username_input" placeholder="enter your username" />
+            
+                <button id="search_btn">Search</button>
+            </div>
+            </div>
+            <div class="stats_container">
+                <div class="progress">
+                    <div class="progress_item circle" >
+                        <div class="easy_progress">
+                            <span id="easy_label"></span>
+                            Easy
+                        </div>
+                    </div>
+                     <div class="progress_item circle" >
+                        <div class="medium_progress">
+                            <span id="medium_label"></span>
+                            Medium
+                        </div>
+                     </div>
+                      <div class="progress_item circle" >
+                        <div class="hard_progress">
+                            <span id="hard_label"></span>
+                            hard
+                        </div>
+                      </div>
+                </div>
+                <div class="stats_card">
+
+                </div>
+             </div>
+         </div>
+        <script src="script.js"></script>
+    </body>
+</html>
